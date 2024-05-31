@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 .cor_Titulo {
     color: rgb(230, 59, 88);
 }
@@ -24,15 +28,20 @@ h1 {
     color: aliceblue;
 }
 
-p {
-    color: rgb(141, 141, 141);
-}
 
 .container__conteudo {
     width: 615px;
 }
 
 .container__conteudo__titulo {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+}
+
+.container__conteudo_texto {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(167, 167, 167);
 }
 
 
